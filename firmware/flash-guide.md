@@ -34,28 +34,28 @@ Jalankan perintah ini dari folder root project (sehingga path `firmware/...` val
 
 ```bash
 # 0) WS2812B LED test
-esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 firmware/00-esp32S3-WS2812BTest.bin
+esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 00-esp32S3-WS2812BTest.bin
 
 # 1) Speaker test
-esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 firmware/01-esp32S3-SpeakerTest.bin
+esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 01-esp32S3-SpeakerTest.bin
 
 # 2) Display 2.0 inch test
-esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 firmware/02-esp32-S3-display-test-display2.0.bin
+esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 02-esp32-S3-display-test-display2.0.bin
 
 # 3) Microphone test
-esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 firmware/03-esp32S3-MicTest.bin
+esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 03-esp32S3-MicTest.bin
 
 # 4) Voice + beep + display 2.0
-esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 firmware/04-ESP32-S3-VoiceBeep-display2.0.bin
+esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 04-ESP32-S3-VoiceBeep-display2.0.bin
 
 # 5) Voice + beep + WS2812 + display 2.0
-esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 firmware/05-ESP32-S3_voiceBeep-withWS2812-display2.0.bin
+esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 05-ESP32-S3_voiceBeep-withWS2812-display2.0.bin
 
 # 6) Voice monitoring + display 2.0
-esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 firmware/06-ESP32-S3-VoiceMonitoring-display2.0.bin
+esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 06-ESP32-S3-VoiceMonitoring-display2.0.bin
 
 # 7) Voice recorder + PSRAM + display 2.0
-esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 firmware/07-ESP32S3-VoiceRecorder-withPSRAM-display2.0.bin
+esptool --chip esp32s3 --port COM8 --baud 921600 write-flash 0x0 07-ESP32S3-VoiceRecorder-withPSRAM-display2.0.bin
 ```
 
 ### Sintaks lama (esptool ≤ 4.x / esptool.py)
