@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(arduino-cli board *)",
+      "Bash(arduino-cli compile *)",
+      "Bash(arduino-cli upload *)",
+      "PowerShell($port = new-Object System.IO.Ports.SerialPort COM8,115200,None,8,one; $port.ReadTimeout = 1000; $port.DtrEnable = $true; $port.RtsEnable = $true; $port.Open\\(\\); Start-Sleep -Milliseconds 200; $port.DtrEnable = $false; $port.RtsEnable = $false; Start-Sleep -Milliseconds 100; $port.DtrEnable = $true; $port.RtsEnable = $true; $start = Get-Date; while \\(\\(\\(Get-Date\\) - $start\\).TotalSeconds -lt 12\\) { try { $line = $port.ReadLine\\(\\); Write-Host $line } catch [TimeoutException] { } }; $port.Close\\(\\))"
+    ]
+  }
+}

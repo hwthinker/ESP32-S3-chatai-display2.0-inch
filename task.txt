@@ -1,0 +1,17 @@
+cat > task.txt << 'EOF'
+Di folder Source-code terdapat beberapa subfolder project ESP32-S3. 
+Beberapa project menggunakan konfigurasi display 1.8 inch (128x160), 
+yaitu folder yang namanya mengandung "display1.8".
+
+Tugasmu:
+1. Baca folder display-2.0-inch-test sebagai referensi konfigurasi 
+   display 2.0 inch (240x320) yang sudah terbukti work
+2. Modifikasi semua project di Source-code yang menggunakan display 1.8 
+   agar kompatibel dengan display 2.0 inch, mengacu pada referensi tersebut
+3. Rename semua folder yang mengandung "display1.8" menjadi "display2.0"
+4. Update file README.md, README-diy.md, dan wiring-info.md dengan 
+   konfigurasi display 2.0 inch yang baru
+5. Jangan ubah logika program, hanya bagian konfigurasi display
+
+Buat asumsi yang reasonable jika ada yang ambigu, lanjutkan tanpa tanya.
+EOF
