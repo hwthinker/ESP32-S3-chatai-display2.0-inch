@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(arduino-cli lib *)",
+      "Bash(findstr /I \"GFX ST7789 BusIO\")",
+      "Bash(arduino-cli compile *)",
+      "Bash(dir *)"
+    ]
+  }
+}
