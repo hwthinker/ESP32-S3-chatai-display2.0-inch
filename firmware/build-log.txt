@@ -1,0 +1,43 @@
+Build Log - ESP32-S3 Xiaozhi ChatAI Projects
+Date: 2026-06-12
+arduino-cli: 1.5.0-rc.1
+esp32 core: 3.3.10
+esptool: 5.2.0
+FQBN: esp32:esp32:esp32s3
+Flash: dio / 80MHz / 16MB
+==========================================
+
+[OK] 00-esp32S3-WS2812BTest
+     Sketch: 381388 bytes (29%) | RAM: 22776 bytes (6%)
+     Merged: 447072 bytes
+
+[OK] 01-esp32S3-SpeakerTest
+     Sketch: 311887 bytes (23%) | RAM: 23588 bytes (7%)
+     Merged: 377568 bytes
+
+[OK] 02-esp32-S3-display-test-display2.0
+     Sketch: 345288 bytes (26%) | RAM: 23616 bytes (7%)
+     Merged: 410976 bytes
+
+[OK] 03-esp32S3-MicTest
+     Sketch: 306071 bytes (23%) | RAM: 23532 bytes (7%)
+     Merged: 371760 bytes
+
+[OK] 04-ESP32-S3-VoiceBeep-display2.0
+     Sketch: 379136 bytes (28%) | RAM: 26768 bytes (8%)
+     Merged: 444816 bytes
+
+[OK] 05-ESP32-S3_voiceBeep-withWS2812-display2.0
+     Sketch: 382632 bytes (29%) | RAM: 26840 bytes (8%)
+     Merged: 448320 bytes
+
+[OK] 06-ESP32-S3-VoiceMonitoring-display2.0
+     Sketch: 375392 bytes (28%) | RAM: 27848 bytes (8%)
+     Merged: 441072 bytes
+
+[OK] 07-ESP32S3-VoiceRecorder-withPSRAM-display2.0
+     Sketch: 376748 bytes (28%) | RAM: 27848 bytes (8%)
+     Merged: 442432 bytes
+
+==========================================
+Summary: 8/8 projects built successfully, 0 errors.

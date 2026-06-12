@@ -103,7 +103,7 @@ void initLCD() {
 
   // Initialize ST7789 2.0" 240x320
   tft.init(TFT_WIDTH, TFT_HEIGHT);
-  tft.setRotation(0);  // Portrait: 240x320
+  tft.setRotation(2);  // Portrait inverted (180°): 240x320
   tft.fillScreen(ST77XX_BLACK);
 
   // Title - DRAW ONCE, NEVER CLEAR

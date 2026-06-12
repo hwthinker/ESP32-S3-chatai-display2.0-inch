@@ -65,7 +65,7 @@ void initLCD() {
   // Inisialisasi ST7789 2.0" 240x320
   tft.init(TFT_WIDTH, TFT_HEIGHT);
   tft.setSPISpeed(40000000);  // 40 MHz hardware SPI
-  tft.setRotation(0);         // Portrait: 240x320
+  tft.setRotation(2);         // Portrait inverted (180°): 240x320
   tft.fillScreen(ST77XX_BLACK);
 
   // Frame luar

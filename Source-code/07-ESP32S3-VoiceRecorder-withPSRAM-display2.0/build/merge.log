@@ -1,0 +1,4 @@
+esptool v5.2.0
+Flash parameters set to 0x024f.
+SHA digest in image updated.
+Wrote 0x6c040 bytes to file 'firmware/07-ESP32S3-VoiceRecorder-withPSRAM-display2.0.bin', ready to flash to offset 0x0.

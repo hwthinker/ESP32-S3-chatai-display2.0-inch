@@ -1,4 +1,4 @@
---flash-mode dio --flash-freq 80m --flash-size 16MB  
+--flash-mode dio --flash-freq 80m --flash-size 4MB  
 0x0 00-esp32S3-WS2812BTest.ino.bootloader.bin  
 0x8000 00-esp32S3-WS2812BTest.ino.partitions.bin  
 0xe000 boot_app0.bin  

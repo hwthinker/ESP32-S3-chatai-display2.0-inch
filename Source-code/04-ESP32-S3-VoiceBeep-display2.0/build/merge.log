@@ -1,0 +1,4 @@
+esptool v5.2.0
+Flash parameters set to 0x024f.
+SHA digest in image updated.
+Wrote 0x6c990 bytes to file 'firmware/04-ESP32-S3-VoiceBeep-display2.0.bin', ready to flash to offset 0x0.
