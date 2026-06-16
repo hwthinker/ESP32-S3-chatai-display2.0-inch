@@ -168,7 +168,7 @@ Diukur dari project paling berat (05 / 06 / 07: LED + Speaker + Mic + Display + 
 | **9**  | FREE | ADC1_CH8 |
 | **10** | FREE | ADC1_CH9 |
 | **11** | FREE | ADC2_CH0 — ADC2 tidak bisa dipakai bersamaan dengan WiFi aktif |
-| **12** | FREE | ADC2_CH1 — sda. |
+| **12** | RESERVED *(expansion)* | ADC2_CH1, RTC, FSPICLK, TOUCH12 — **Dipakai expansion board**, jangan dipakai ulang sebagai output saat expansion terpasang |
 | **13** | FREE | ADC2_CH2 — sda. |
 | **14** | FREE | ADC2_CH3 — sda. |
 | **17** | FREE | ADC2_CH6 |
@@ -179,7 +179,8 @@ Diukur dari project paling berat (05 / 06 / 07: LED + Speaker + Mic + Display + 
 | **39** | FREE | digital biasa, juga jalur MTCK/JTAG (aman jika tidak debug JTAG) |
 | **46** | FREE | strap-pin (boot mode), aman setelah boot — input/output OK |
 
-**Total GPIO FREE praktis (aman + WiFi-friendly):** **13 pin** → `1, 2, 3, 8, 9, 10, 38, 39, 46` + 4 pin ADC2 (`11, 12, 13, 14, 17, 18`) hanya jika WiFi tidak butuh ADC.
+**Total GPIO FREE praktis (aman + WiFi-friendly):** **13 pin** → `1, 2, 3, 8, 9, 10, 38, 39, 46` + pin ADC2 (`11, 13, 14, 17, 18`) hanya jika WiFi tidak butuh ADC.
+> GPIO 12 dikeluarkan dari daftar FREE karena sudah dialokasikan untuk expansion board.
 
 > Pin paling aman & paling lega: **GPIO 1, 2, 3, 8, 9, 10, 38, 39** — bisa langsung dipakai untuk tombol tambahan, sensor I²C (SDA/SCL), encoder, dll.
 
